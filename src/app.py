@@ -5,7 +5,7 @@ Main API module
 
 import json
 from flask import Flask, Response, request
-from db import users
+from src.db import users
 
 
 def create_app():
